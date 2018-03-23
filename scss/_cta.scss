@@ -1,0 +1,66 @@
+// Styling for the call to action section
+
+.cta-content {
+    position: relative;
+    padding: 100px 0 550px;
+    
+    .content {
+        position: absolute;
+        top:5%;
+        left:30%;
+    } 
+
+
+    .image {
+        position: absolute;
+        left:5%;  
+        margin-top:10%;
+    }
+    p {
+        font-size: 60px;
+        color: black;
+    }
+
+    .img-1{
+        position: absolute;
+        background: url('../img/featured_challenges/Challenge_1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        width: 300px;
+        height: 300px;
+        left: 150%;
+    }
+    .img-2{
+        top:-40px;
+        position: relative;
+        background: url('../img/featured_challenges/Challenge_2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 450px;
+        height: 450px;
+        left:80%;
+        
+        
+    }
+    .img-3{
+        position: relative;
+        background: url('../img/featured_challenges/Challenge_3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 300px;
+        left:125%;
+
+        
+    }
+
+
+
+    @media (min-width: 768px) {
+        h2 {
+            font-size: 80px;
+        }
+    }
+}
+

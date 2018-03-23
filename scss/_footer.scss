@@ -1,0 +1,63 @@
+// Styling for the footer
+.footer {
+    position: relative;
+    padding: 300px 0 475px;
+
+
+    .img-footer{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('../img/footer/Footer.png');
+        background-size: cover !important;
+        background-repeat: no-repeat;
+    }
+
+    .l-2{
+        margin-top:150px;
+    }
+    .l-1{
+        margin-top:150px;
+    }
+
+    h2{
+        color:"white";
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .text{
+        color:"white";
+        font-size: 15px;
+    }
+    .text-2{
+        color:"white";
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .r-text{
+        color:"white";
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .header-content {
+        max-width: 500px;
+        margin-top: 180px;
+
+        text-align: center;
+        h1 {
+            font-size: 60px;
+            color:"white";
+        }
+        p{
+            font-size: 30px;
+            color:"white";
+        }
+     .text-italic {
+               font-size: 13px;
+              font-style: italic;
+            }
+        
+    }
+}

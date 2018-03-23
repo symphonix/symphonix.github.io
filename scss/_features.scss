@@ -1,0 +1,134 @@
+// Styling for the features section
+div.features {
+    position: relative;
+    padding: 100px 0 100px;
+
+    row.l-container{
+        position: relative;
+    }
+
+    row.r-container{
+        position: relative;
+    }
+
+    .left-img{
+        //position: absolute;
+        width: 450px;
+        height: 450px;
+        margin-top:8%;
+
+    }
+
+    .imageOne {
+        background: url('../img/rules/Rules_BG Ellipse.png'); 
+        background-size: contain;
+        z-index: 0;
+
+    }
+
+    .imageTwo{
+        position: absolute;
+        background: url('../img/rules/Laptop.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 1;
+        top:100px;
+        left:-4px;
+        
+    }
+
+    .img-host{
+        position: absolute;
+        background: url('../img/rules/Host_icon.png'); 
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+    }
+
+    .img-participate{
+        position: absolute;
+        background: url('../img/rules/Participate.png'); 
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+    }
+  
+    .img-submission{
+        position: absolute;
+        background: url('../img/rules/submissions.png'); 
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .img-results{
+        position: absolute;
+        background: url('../img/rules/achieve.png'); 
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+
+    }
+    .text{
+        position: absolute;
+        top:11px;
+        left:18%;
+
+    }
+
+    .info-text{
+        position: absolute;
+        margin-top:55px;
+        left:2%;
+    }
+    .head-text{
+        color: #273e54;
+        font-size: 20px;
+        font-weight: bold;
+        }    
+    .mb-7{
+    margin-bottom: 7.5rem !important;
+    }
+    .section-heading {
+        margin-bottom: 100px;
+        padding-top: 5px;
+        h2 {
+            margin-top: 10px;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+    .device-container,
+    .feature-item {
+        max-width: 325px;
+        margin: 0 auto;
+    }
+    .device-container {
+        margin-bottom: 100px;
+        @media(min-width: 992px) {
+            margin-bottom: 0;
+        }
+    }
+    .feature-item {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        h3 {
+            font-size: 30px;
+        }
+        i {
+            font-size: 80px;
+            display: block;
+            margin-bottom: 15px;
+            background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+            background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
