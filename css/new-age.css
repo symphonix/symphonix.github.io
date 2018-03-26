@@ -67,14 +67,45 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
-  letter-spacing: 1px;
+  background: url("../img/header/EvalAI_favicon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 6px;
+  width: 100px;
+  height: 40px;
 }
 
-#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #fcbd20;
+#mainNav .btn-top {
+  margin-top: -3px;
+  margin-right: -7px;
+  margin-left: 20px;
+}
+
+#mainNav .btn-top1 {
+  float: left;
+  margin-top: -3px;
+}
+
+#mainNav .btn-2 {
+  background-image: linear-gradient(to right, white, white);
+  padding: 10px 35px;
+  margin-left: 20px;
+}
+
+#mainNav .btn-outline {
+  color: white;
+  border: 1px solid;
+  border-color: white;
+}
+
+#mainNav .btn-outline:hover, #mainNav .btn-outline:focus, #mainNav .btn-outline:active, #mainNav .btn-outline.active {
+  color: white;
+  border-color: #fdcc52;
+  background-color: #fdcc52;
+}
+
+#mainNav .text {
+  color: #395177 !important;
 }
 
 #mainNav .navbar-toggler {
@@ -88,15 +119,6 @@ section h2 {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 600;
   letter-spacing: 2px;
-}
-
-#mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
-  background-color: transparent;
-}
-
-#mainNav .navbar-nav > li > a.active:hover {
-  background-color: transparent;
 }
 
 #mainNav .navbar-nav > li > a,
@@ -113,6 +135,14 @@ section h2 {
   #mainNav {
     border-color: transparent;
     background-color: transparent;
+  }
+  #mainNav .btn-1 {
+    background-image: white;
+    color: white;
+  }
+  #mainNav .btn-1:hover, #mainNav .btn-1:focus {
+    background-image: white;
+    color: white;
   }
   #mainNav .navbar-brand {
     color: fade(white, 70%);

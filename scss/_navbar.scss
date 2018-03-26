@@ -5,12 +5,49 @@
     @include transition-all;
     @include heading-font;
     .navbar-brand {
-        color: $theme-primary;
-        @include heading-font;
+       // position: absolute;
+        background: url('../img/header/EvalAI_favicon.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top:6px;
+        width: 100px;
+        height: 40px;
+       // z-index: 4;
+    }
+
+    
+    .btn-top{
+        margin-top:-3px;
+        margin-right:-7px;
+        margin-left:20px;
+    }
+    .btn-top1{
+        float:left;
+        margin-top:-3px;
+
+
+    }
+    .btn-2 {
+    background-image: linear-gradient(to right, white,white );
+    padding: 10px 35px;
+    margin-left: 20px;
+    }
+    
+    .btn-outline {
+        color: white;
+        border: 1px solid;
+        border-color: white;
         &:hover,
-        &:focus {
-            color: darken($theme-primary, 10%);
+        &:focus,
+        &:active,
+        &.active {
+            color: white;
+            border-color: $theme-primary;
+            background-color: $theme-primary;
         }
+    }
+    .text{
+        color:#395177 !important; 
     }
     .navbar-toggler {
         font-size: 12px;
@@ -22,13 +59,7 @@
             > a {
                 font-size: 11px;
                 @include alt-font;
-                &.active {
-                    color: $theme-primary !important;
-                    background-color: transparent;
-                    &:hover {
-                        background-color: transparent;
-                    }
-                }
+
             }
             > a,
             > a:focus {
@@ -40,6 +71,16 @@
         }
     }
     @media (min-width: 992px) {
+        .btn-1 {
+            background-image: white;
+            color: white;
+            &:hover,
+            &:focus {
+                background-image: white;
+
+                color: white;
+            }
+          }
         border-color: transparent;
         background-color: transparent;
         .navbar-brand {
@@ -73,6 +114,7 @@
                     color: $theme-primary;
                 }
             }
+           
         }
     }
 }
